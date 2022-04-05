@@ -421,3 +421,25 @@ body {
     left: 37%;
     font-size: 20px;
 }
+
+.pagination {
+    padding: 50px 0px;
+    z-index: 21;
+}
+
+.pagination__nav {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination__nav-page-link {
+    padding: 10px;
+    border: #111 solid 1px;
+    color: var(--dark-green);
+    text-decoration: none;
+}
+
+.pagination__nav-page {
+    margin: 0 5px;
+    list-style-type: none;
+}

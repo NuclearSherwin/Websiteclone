@@ -82,6 +82,7 @@ body {
     position: relative;
     right: 0;
     display: inline-block;
+    z-index: 50;
 }
 
 .navbar__user-icon:hover {
@@ -115,6 +116,14 @@ body {
     gap: 10px 20px;
     display: flex;
     align-items: center;
+}
+
+.navbar__user span {
+    z-index: 50;
+}
+
+.navbar__user span:hover {
+    color: var(--dark-green);
 }
 
 .container {
@@ -418,7 +427,7 @@ body {
     color: black;
     position: absolute;
     top: 12px;
-    left: 37%;
+    left: 3%;
     font-size: 20px;
 }
 
@@ -427,19 +436,77 @@ body {
     z-index: 21;
 }
 
-.pagination__nav {
+.pagination__pages {
     display: flex;
     justify-content: center;
 }
 
-.pagination__nav-page-link {
+.pagination__page-link {
+    text-decoration: none;
     padding: 10px;
+    border-radius: 3px;
     border: #111 solid 1px;
+    font-size: 18px;
     color: var(--dark-green);
+    margin: 0 10px;
+}
+
+.pagination__page-link:hover {
+    color: var(--background-color);
+    background-color: var(--dark-green);
+    transition: .3s all;
+}
+
+footer {
+    background-color: #111;
+}
+
+.footer__wrapper-contents {
+    display: flex;
+}
+
+.footer__content-branch-logo-footer {
+    width: 50px;
+    height: 50px;
+}
+
+.footer__content-about-speech {
+    color: rgb(191, 191, 191);
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.footer__content-notification {
+    color: var(--gray);
+}
+
+.footer__content-branch-domain {
+    color: var(--background-color);
+    display: flex;
+}
+
+#footer {
+    padding: 40px 40px;
+}
+
+.footer__content-about-services-link {
+    color: white;
     text-decoration: none;
 }
 
-.pagination__nav-page {
-    margin: 0 5px;
-    list-style-type: none;
+.footer__content-about-services-link span ion-icon {
+    color: var(--gray);
+}
+
+.space {
+    color: var(--gray);
+    display: inline-block;
+    margin: 0 10px;
+    opacity: 0.5;
+}
+
+.footer__content-notification p {
+    padding: 7px;
+    border: var(--gray) solid 1px;
+    opacity: 0.9;
 }

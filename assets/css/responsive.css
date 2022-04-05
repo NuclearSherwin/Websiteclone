@@ -1,9 +1,15 @@
 @media (min-width:320px) {
     /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    .footer__content-about-speech {
+        overflow: hidden;
+    }
 }
 
 @media (min-width:480px) {
     /* smartphones, Android phones, landscape iPhone */
+    .footer__content-about-speech {
+        overflow: hidden;
+    }
 }
 
 @media (min-width:600px) {
@@ -45,6 +51,9 @@
     }
     .navbar__wrapper-input .navbar__text-box {
         margin-bottom: 2%;
+    }
+    .navbar__search-icon {
+        left: 20%;
     }
 }
 
@@ -105,4 +114,8 @@
         margin-left: 40px;
         margin-right: 40px;
     } */
+    .navbar__search-icon {
+        position: absolute;
+        left: 37% !important;
+    }
 }

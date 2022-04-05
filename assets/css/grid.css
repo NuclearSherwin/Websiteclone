@@ -12,8 +12,13 @@
 .row {
     display: flex;
     flex-wrap: wrap;
+<<<<<<< HEAD
     margin-left: -12px;
     margin-right: -12px;
+=======
+    margin-left: -4px;
+    margin-right: -4px;
+>>>>>>> 308430a44d09ef0be2fa3cbdd631eff7163217db
 }
 
 .row.no-gutters {
@@ -22,8 +27,13 @@
 }
 
 .col {
+<<<<<<< HEAD
     padding-left: 4px;
     padding-right: 4px;
+=======
+    padding-left: 12px;
+    padding-right: 12px;
+>>>>>>> 308430a44d09ef0be2fa3cbdd631eff7163217db
 }
 
 .row.no-gutters .col {

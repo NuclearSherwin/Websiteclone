@@ -326,7 +326,7 @@ body {
 
 .films__wrapper-content img:hover {
     opacity: 0.7;
-    transform: scale(1.1);
+    transform: scale(1.05);
     z-index: 100;
     transition: all 0.4s ease-in-out;
 }
@@ -408,4 +408,16 @@ body {
 
 .navbar__container {
     width: 100%;
+}
+
+.navbar__wrapper-input {
+    position: relative;
+}
+
+.navbar__search-icon {
+    color: black;
+    position: absolute;
+    top: 12px;
+    left: 37%;
+    font-size: 20px;
 }
